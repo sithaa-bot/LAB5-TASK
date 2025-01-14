@@ -47,6 +47,12 @@ public class Subject {
     public int getCredits() {
         return credits;
     }
+    public void setName(String name) {
+        if (name == null || name.isEmpty()) {
+            throw new IllegalArgumentException("Subject name can't be null or empty.");
+        }
+        this.name = name;
+    }
     public static void main(String[] args) {
 
     }
