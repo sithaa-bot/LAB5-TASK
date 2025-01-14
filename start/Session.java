@@ -23,5 +23,13 @@ public class Session {
         this.endTime = endTime;
     }
 
+    public String getSessionName(){
+        return sessionName;
+    }
+
+    public void setSessionName(String sessionName){
+        this.sessionName = sessionName;
+    }
+
     
 }
